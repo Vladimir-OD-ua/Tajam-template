@@ -1,0 +1,426 @@
+@media (max-width:1200px) {
+  .form {
+    width: 40%;
+  }
+  .gallery-client-container {
+    width: 60%;
+    justify-content: space-around;
+  }
+}
+
+@media (max-width:992px) {
+  .fullscreen {
+    height: auto;
+  }
+  .button {
+    margin-bottom: 20px;
+  }
+  .description {
+    font-size: 12px;
+  }
+  .banner {
+    height: 70vh;
+  }
+  .company-information {
+    height: auto;
+  }
+  .company-information-title {
+    margin-top: 20px;
+  }
+  .video-story-bg {
+    height: 350px;
+  }
+  .list-gallery {
+    border: none;
+    height: 100%;
+    margin: auto;
+  }
+  .description-list-gallery {
+    width: 70%;
+    font-size: 12px;
+  }
+  .title-list-gallery {
+    margin: 5px 0;
+  }
+  .img-list-gallry {
+    padding: 15px;
+  }
+  .service-list-gallery {
+    margin-bottom: 20px;
+    margin-top: 15px;
+  }
+  .header-service-list {
+    margin-top: 15px;
+  }
+  .header-team-gallery {
+    margin-top: 15px;
+  }
+  .wrapper-team-gallery {
+    width: 75%;
+    margin: auto;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  .frame-employee-info {
+    margin: 10px;
+  }
+  .conclusion {
+    margin: 15px auto;
+  }
+  .portfolio {
+    height: auto;
+  }
+  .portfolio-header {
+    margin: 10px;
+  }
+  .portfolio-gallery {
+    margin: auto;
+  }
+  .portfolio-button {
+    margin-top: 15px;
+  }
+  .reviews {
+    height: 350px;
+  }
+  .reviews-description {
+    font-size: 12px;
+  }
+  .registration {
+    height: auto;
+  }
+  .log-in {
+    margin: 10px 0;
+  }
+  .form {
+    align-items: flex-start;
+    margin-top: 15px;
+  }
+  .gallery-client-container {
+    margin-top: 15px;
+  }
+  .size-img {
+    margin: 30px;
+  }
+  .footer {
+    height: auto;
+  }
+  .for-us-text {
+    margin: 0;
+    width: 90%;
+    font-size: 12px;
+  }
+  .location {
+    font-size: 12px;
+    width: 90%;
+    margin-top: 10px;
+  }
+  .subscribe-header {
+    margin-bottom: 25px;
+  }
+  .subscribe-email input {
+    font-size: 14px;
+    height: 35px;
+  }
+  .help-menu {
+    padding: 0;
+  }
+  .help-information {
+    justify-content: end;
+    width: 50%;
+  }
+  .help {
+    padding-right: 15px;
+  }
+  .info {
+    font-size: 12px;
+  }
+  .social-icon {
+    margin-top: 26px;
+  }
+  .logo-footer {
+    margin-top: 5px;
+  }
+}
+
+@media (max-width:768px) {
+  .nav-menu {
+    flex-direction: column;
+    align-items: flex-end;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: -100%;
+    transition: all 0.4s ease 0.1s;
+  }
+  .nav-menu.active {
+    top: 50px;
+  }
+  .nav-item {
+    padding: 2px 20px 1px 5px;
+    text-align: end;
+  }
+  .nav-item-link {
+    text-shadow: 0 0 7px rgb(48, 37, 84), rgb(48, 37, 84) 1px 1px 0, rgb(48, 37, 84) -1px -1px 0,
+    rgb(48, 37, 84) -1px 1px 0, rgb(48, 37, 84) 1px -1px 0;
+  }
+  .burger-stroke {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 42px;
+    box-shadow: 0 0 7px rgb(48, 37, 84);
+    border-radius: 50%;
+    background-color: #322954;
+  }
+  .burger {
+    padding: 5px;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    right: 0;
+    justify-content: flex-end;
+    position: fixed;
+  }
+  .header-burger {
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 20px;
+  }
+  .header-burger span {
+    position: absolute;
+    background-color: #ffffff;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    top: 9px;
+    transition: all 0.3s ease 0s;
+  }
+  .header-burger:before,
+  .header-burger:after {
+    content: "";
+    background-color: #ffffff;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    left: 0;
+    transition: all 0.3s ease 0s;
+  }
+  .header-burger:before {
+    top: 0;
+  }
+  .header-burger:after {
+    bottom: 0;
+  }
+  .header-burger.active span {
+    transform: scale(0);
+  }
+  .header-burger.active:before {
+    transform: rotate(45deg);
+    top: 9px;
+  }
+  .header-burger.active:after {
+    transform: rotate(-45deg);
+    bottom: 9px;
+  }
+  .for-us {
+    display: none;
+  }
+  .pocket-footer {
+    max-width: 50%;
+    margin: auto;
+    margin-top: 5px;
+  }
+  .contact-header {
+    text-align: center;
+  }
+  .subscribe-header {
+    text-align: center;
+    margin-bottom: 13px;
+  }
+  .social-icon {
+    margin-top: 15px;
+  }
+  .icon {
+    border: none;
+    height: 15px;
+    justify-content: space-evenly;
+    margin-left: 0;
+  }
+  .footer-button {
+    width: 45px;
+  }
+  .date.info {
+    margin: 0;
+  }
+  .info {
+    margin-top: 15px;
+  }
+  .form {
+    width: 100%;
+    align-items: center;
+  }
+  .gallery-client-container {
+    width: 100%;
+  }
+}
+
+@media (max-width:576px) {
+  .title {
+    font-size: 27px;
+    text-align: center;
+  }
+  img.logo-img {
+    width: 35px;
+  }
+  .logo-text-img {
+    margin-left: 5px;
+    width: 65px;
+  }
+  .separator {
+    margin: 8px 0;
+  }
+  .description {
+    font-size: 11px;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .button {
+    padding: 12px;
+    font-size: 13px;
+  }
+  .title-service-list {
+    font-size: 15px;
+    padding-bottom: 10px;
+  }
+  .subtitle-service-list {
+    font-size: 11px;
+    text-align: center;
+  }
+  .img-list-gallry {
+    padding: 0;
+  }
+  .title-list-gallery {
+    font-size: 12px;
+  }
+  .description-list-gallery {
+    width: 90%;
+    font-size: 11px;
+  }
+  .banner {
+    height: 500px;
+  }
+  .company-logo {
+    display: none;
+  }
+  .section-information {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+  .list-gallery {
+    width: 50%;
+  }
+  .title-team-gallery {
+    font-size: 19px;
+  }
+  .subtitle-team-gallery {
+    font-size: 11px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .conclusion {
+    margin: 10px auto;
+    font-size: 10px;
+    text-align: center;
+  }
+  .employee-photo img {
+    height: 180px;
+    width: 185px;
+  }
+  .content-portfolio-gallery {
+    width: calc(100% / 2);
+  }
+  .portfolio-header {
+    margin: 10px 0;
+  }
+  .title-portfolio {
+    font-size: 18px;
+  }
+  .subtitle-portfolio {
+    font-size: 10px;
+  }
+  .portfolio-gallery {
+    height: 550px;
+  }
+  .reviews-description {
+    width: 100%;
+    font-size: 10px;
+  }
+  .person-name {
+    font-size: 12px;
+  }
+  .person-jobposition {
+    font-size: 11px;
+  }
+  .size-img img {
+    width: 100px;
+  }
+  .size-img {
+    margin: 15px;
+  }
+  .gallery-client-container {
+    margin-top: 20px;
+  }
+  .client {
+    margin: 10px 0;
+  }
+  .size-img {
+    margin: 15px;
+  }
+  .contact {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .pocket-footer {
+    max-width: 100%;
+    margin: 7px 0;
+  }
+  .contact-header {
+    width: 100%;
+  }
+  .location {
+    width: 100%;
+    font-size: 11px;
+    margin-top: 0;
+    padding-left: 25px;
+  }
+  .subscribe {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .subscribe-header {
+    margin-bottom: 0;
+    width: 100%;
+  }
+  .social-icon {
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  .help-information {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .info {
+    font-size: 11px;
+  }
+  .help {
+    padding-right: 0;
+  }
+  .date.info {
+    display: none;
+  }
+}
